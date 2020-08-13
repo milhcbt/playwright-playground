@@ -4,7 +4,7 @@ class HomePage {
   }
 
   async isActive() {
-    return (await page.evaluate(() => window.location.pathname)) === 'lego.com';
+    return (await page.evaluate(() => window.location.pathname)) === 'google.com';
   }
 }
 

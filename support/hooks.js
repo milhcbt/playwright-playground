@@ -1,4 +1,5 @@
 const pw = require('playwright');
+const reporter = require('cucumber-html-reporter');
 const { BeforeAll, Before, After, AfterAll } = require('cucumber');
 
 // Launch options.
