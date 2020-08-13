@@ -3,7 +3,7 @@ const { BeforeAll, Before, After, AfterAll } = require('cucumber');
 
 // Launch options.
 const options = {
-  headless: false
+  headless: true
 };
 
 // Create a global browser for the test session.
